@@ -10,7 +10,7 @@ Using Module ZabbixAPI
 ```
 Создание класса 
 ```
-$zbx = [ZabbixAPI]::new('http','zabbix.lab.mts.ru','forauto','1qaz!QAZ',$true)
+$zbx = [ZabbixAPI]::new('http','myzabbix.change_me.ru','username','passw00rd',$true)
 ```
 где параметры 
 1. *'http'* или *'https'* (возможно передать пустую строку) - это протокол для доступа к серверу заббикс

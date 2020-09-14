@@ -37,7 +37,7 @@ $zbx = [ZabbixAPI]::new('http','zabbix.lab.mts.ru','forauto','1qaz!QAZ',$true)
 ```
 Using Module ZabbixAPI
 
-$zbx = [ZabbixAPI]::new('http','zabbix.lab.mts.ru','forauto','1qaz!QAZ',$true)
+$zbx = [ZabbixAPI]::new('http','myzabbix.change_me.ru','username','passw00rd',$true)
 
 $zbx.query.method = 'host.get'
 
